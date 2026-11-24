@@ -1,0 +1,16 @@
+*.iml
+.gradle/
+local.properties
+.idea/
+.DS_Store
+build/
+/captures
+.externalNativeBuild
+.cxx
+
+# Provided source-of-truth docs stay local only (user request: do not push these)
+/README.md
+/ARCHITECTURE.md
+/HOW_TO_BUILD.md
+/IMPLEMENTATION_PLAN.md
+/MASTER_PROMPT.md
