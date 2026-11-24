@@ -9,7 +9,7 @@ The agent may set AWAITING HUMAN. Only the human sets DONE or changes CURRENT TA
 
 | Task | Title | Status |
 |---|---|---|
-| T001 | Baseline checks and manifest settings | TODO |
+| T001 | Baseline checks and manifest settings | AWAITING HUMAN |
 | T002 | Theme, strings, constants, app shell | TODO |
 | T003 | Domain model and JSON codec | TODO |
 | T004 | ProjectStore | TODO |
@@ -37,6 +37,8 @@ Phases 3+ tasks are generated later (see docs/HOW_TO_BUILD.md Part D).
 ## LOG
 
 (agent appends one line per task)
+T001 info: agp=8.13.2, kotlin=2.3.21, composeBom=2025.12.01, minSdk=26, compileSdk=36, targetSdk=36
+2026-11-24 T001 implemented, verify PASS
 
 ## BLOCKERS
 
